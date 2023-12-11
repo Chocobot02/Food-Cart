@@ -51,6 +51,7 @@ class aboutui(QWidget):
         how_content = "<ul>" \
                        "<li>Click the 'click 'GO SHOPPING' button.</li>" \
                        "<li>Choose yout desired food(s).</li>" \
+                       "<li>Click the item in the Order Details to delete</li>" \
                        "<li>Click 'Place order' button to buy.</li>" \
                        "</ul>"
         self.list_label = QLabel(self)

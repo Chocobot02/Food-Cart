@@ -315,9 +315,3 @@ Items:
         except Exception as e:
             print(e)
             QMessageBox.information(self,'Error Payment', 'Payment Failed')
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    main_window = cartUI()
-    main_window.show()
-    sys.exit(app.exec())
