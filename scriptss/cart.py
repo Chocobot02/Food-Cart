@@ -228,9 +228,10 @@ class Receipt_print(QDialog):
 
         self.pay = QPushButton(self)
         self.pay.setText('PAY')
-        self.pay.setFixedSize(100,50)
+        self.pay.setFixedSize(220,50)
         self.pay.setStyleSheet('''
             QPushButton{
+                margin-left:95px;
                 background-color: #557C55;
                 color: white;
                 font-size: 15px;
@@ -320,5 +321,3 @@ if __name__ == "__main__":
     main_window = cartUI()
     main_window.show()
     sys.exit(app.exec())
-
-#      create an txt file 
